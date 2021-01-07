@@ -31,7 +31,20 @@ $(document).ready(function () {
         intText.addClass("uk-animation-fade uk-animation-reverse")
         intButton.addClass("uk-animation-fade uk-animation-reverse")
         pBar.addClass("uk-animation-fade uk-animation-reverse")
+        var countdown = 1
+    var timerID = setInterval(function () {
+        if (countdown == 0) {
+            clearTimeout(timerID)
+            location.replace("main.html")
+            
+        } else {
+            countdown--
+        }
+    }, 1000)
     })
+    // .then(
+    //     location.replace("main.html")
+    // )
 
 
 
