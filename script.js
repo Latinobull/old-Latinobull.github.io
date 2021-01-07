@@ -1,5 +1,6 @@
 var bar = document.getElementById('js-progressbar');
 var intButton = $("#introButton")
+var intText = $("#introText")
 $(document).ready(function () {
 
 
@@ -10,6 +11,7 @@ $(document).ready(function () {
         if (bar.value >= bar.max) {
             clearInterval(animate);
             intButton.css("display", "block")
+            intText.css("display", "block")
         }
 
     }, 1000);

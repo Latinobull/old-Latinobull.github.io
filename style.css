@@ -26,3 +26,8 @@
 #js-progressbar {
   width: 700px;
 }
+
+#introText {
+  color: white;
+  display: none;
+}
