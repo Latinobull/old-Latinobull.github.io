@@ -11,7 +11,12 @@
     />
   </head>
   <body>
-    <div class="uk-navbar-container" uk-navbar>
+    <div class="container">
+      <video id="BGvideo" playsinline autoplay muted loop>
+        <source src="Assets/network.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <!-- <div class="uk-navbar-container" uk-navbar>
       <div class="uk-navbar-center">
         <div class="uk-animation-toggle" tabindex="0">
           <div
@@ -21,18 +26,25 @@
           </div>
         </div>
       </div>
+    </div> -->
+    <div class="viewport-header" uk-grid>
+      <div>
+        <progress
+          id="js-progressbar"
+          class="uk-progress"
+          value="10"
+          max="100"
+        ></progress>
+      </div>
+      <div>
+        <button
+          class="uk-button uk-button-secondary uk-width-1-1"
+          id="introButton"
+        >
+          Button
+        </button>
+      </div>
     </div>
-    <hr />
-    <progress
-      id="js-progressbar"
-      class="uk-progress"
-      value="10"
-      max="100"
-    ></progress>
-    <hr />
-    <button class="uk-button uk-button-secondary uk-width-1-1" id="introButton">
-      Button
-    </button>
     <!-- <div>
       <div class="uk-overflow-hidden">
         <img
