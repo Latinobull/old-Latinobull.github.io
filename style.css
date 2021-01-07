@@ -23,3 +23,6 @@
   align-items: center;
   justify-content: center;
 }
+#js-progressbar {
+  width: 700px;
+}
