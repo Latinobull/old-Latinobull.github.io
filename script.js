@@ -15,5 +15,19 @@ $(document).ready(function () {
         }
 
     }, 1000);
+    var countdown = 9
+    var timerID = setInterval(function () {
+        if (countdown == 0) {
+            clearTimeout(timerID)
+            intText.text("This is Donnahue George")
+        } else {
+            intText.html(countdown)
+            countdown--
+        }
+    }, 1000)
 });
 
+$(document).ready(function () {
+
+}
+)
