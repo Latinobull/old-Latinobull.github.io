@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     var animate = setInterval(function () {
 
-        bar.value += 10;
+        bar.value += 25;
 
         if (bar.value >= bar.max) {
             clearInterval(animate);
@@ -15,7 +15,7 @@ $(document).ready(function () {
         }
 
     }, 1000);
-    var countdown = 9
+    var countdown = 3
     var timerID = setInterval(function () {
         if (countdown == 0) {
             clearTimeout(timerID)
