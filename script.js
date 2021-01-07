@@ -1,6 +1,7 @@
 var bar = document.getElementById('js-progressbar');
 var intButton = $("#introButton")
 var intText = $("#introText")
+var pBar = $("#progress")
 $(document).ready(function () {
 
 
@@ -25,9 +26,17 @@ $(document).ready(function () {
             countdown--
         }
     }, 1000)
+
+    intButton.on("click", function() {
+        intText.addClass("uk-animation-fade uk-animation-reverse")
+        intButton.addClass("uk-animation-fade uk-animation-reverse")
+        pBar.addClass("uk-animation-fade uk-animation-reverse")
+    })
+
+
+
+
+
+
 });
 
-$(document).ready(function () {
-
-}
-)
