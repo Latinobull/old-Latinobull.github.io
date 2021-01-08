@@ -110,12 +110,14 @@
       <div
         class="uk-position-relative uk-visible-toggle uk-light"
         tabindex="-1"
-        uk-slideshow="min-height: 300; max-height: 600"
+        uk-slideshow="min-height: 300; max-height: 600; autoplay: true; pause-on-hover: true"
         id="slideshow"
       >
         <ul class="uk-slideshow-items">
           <li>
-            <img src="Assets/Hunger-Buster.png" alt="" uk-cover />
+            <a href="#offcanvas-usage" uk-toggle>
+              <img src="Assets/Hunger-Buster.png" alt="" uk-cover />
+            </a>
           </li>
           <li>
             <img src="Assets/Password-Generator.png" alt="" uk-cover />
@@ -137,7 +139,18 @@
           uk-slidenav-next
           uk-slideshow-item="next"
         ></a>
+        <!--off Canvas Code-->
       </div>
+      <div id="offcanvas-usage" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+    
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+    
+            <h3>Hunger Busters</h3>
+    
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    
+        </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.8/dist/js/uikit.min.js"></script>
