@@ -1,6 +1,6 @@
 h1 {
   font-family: "Exo", sans-serif;
-  background-color: rgba(255, 255, 255, 0.603);
+  color: aliceblue;
   display: block;
 }
 .viewport-main {
@@ -15,5 +15,4 @@ h1 {
 .cardStyle {
   margin-right: 80px;
   margin-left: 80px;
-  font-family: "Exo", sans-serif;
 }
