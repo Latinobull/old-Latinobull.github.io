@@ -8,3 +8,7 @@ h1 {
   position: relative;
   text-align: center;
 }
+#selfStyle {
+  width: 600px;
+  height: 500px;
+}
