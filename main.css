@@ -3,6 +3,10 @@ h1 {
   color: aliceblue;
   display: block;
 }
+p {
+  font-family: "Exo", sans-serif;
+}
+
 .viewport-main {
   position: relative;
   text-align: center;
