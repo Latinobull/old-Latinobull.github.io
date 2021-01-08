@@ -1,3 +1,9 @@
+h1 {
+  font-family: "Exo", sans-serif;
+  background-color: rgba(255, 255, 255, 0.603);
+  margin-left: 500px;
+  margin-right: 500px;
+}
 .viewport-main {
   position: relative;
   text-align: center;
