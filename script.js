@@ -31,7 +31,16 @@ $(document).ready(function () {
         intText.addClass("uk-animation-fade uk-animation-reverse")
         intButton.addClass("uk-animation-fade uk-animation-reverse")
         pBar.addClass("uk-animation-fade uk-animation-reverse")
-        window.location.href = "main.html"
+        var countdown = 1
+        var timerID = setInterval(function () {
+            if (countdown == 0) {
+                clearTimeout(timerID)
+                window.location.href = "main.html"
+            }else {
+                countdown--
+            }
+        }, 1000)
+       
 
     })
 
