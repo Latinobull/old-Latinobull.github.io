@@ -1,7 +1,9 @@
 h1 {
   font-family: "Exo", sans-serif;
   color: aliceblue;
-  display: block;
+  background-color: rgba(96, 139, 177, 0.6);
+  margin-right: 400px;
+  margin-left: 400px;
 }
 p {
   font-family: "Exo", sans-serif;
