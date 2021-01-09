@@ -7,6 +7,11 @@ p {
   font-family: "Exo", sans-serif;
 }
 
+h4 {
+  font-family: "Exo", sans-serif;
+  color: aliceblue;
+}
+
 .viewport-main {
   position: relative;
   text-align: center;
