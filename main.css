@@ -24,9 +24,14 @@ h4 {
 .cardStyle {
   margin-right: 80px;
   margin-left: 80px;
+  background-color: aliceblue;
 }
 
 #slideshow {
   margin-left: 350px;
   margin-right: 350px;
+}
+
+#cardColor {
+  background-color: aliceblue;
 }
