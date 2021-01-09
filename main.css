@@ -5,6 +5,12 @@ h1 {
 }
 p {
   font-family: "Exo", sans-serif;
+  color: aliceblue;
+}
+
+h3 {
+  font-family: "Exo", sans-serif;
+  color: aliceblue;
 }
 
 h4 {
@@ -33,5 +39,7 @@ h4 {
 }
 
 #cardColor {
-  background-color: aliceblue;
+  background-color: rgb(135, 195, 248, 0.6);
+  margin-left: 500px;
+  margin-right: 500px;
 }
