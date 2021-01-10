@@ -7,14 +7,14 @@
   z-index: -1;
 }
 
-.viewport-header {
+/* .viewport-header {
   position: relative;
   height: 100vh;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 #js-progressbar {
   width: 700px;
 }

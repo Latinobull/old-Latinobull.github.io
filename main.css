@@ -1,31 +1,35 @@
 h1 {
   font-family: "Exo", sans-serif;
   color: aliceblue;
-  background-color: rgba(96, 139, 177, 0.6);
-  margin-right: 400px;
-  margin-left: 400px;
+  text-align: center;
 }
 p {
   font-family: "Exo", sans-serif;
   color: aliceblue;
+  text-align: center;
 }
 
 h3 {
   font-family: "Exo", sans-serif;
   color: aliceblue;
+  text-align: center;
 }
 
 h4 {
   font-family: "Exo", sans-serif;
   color: aliceblue;
-}
-
-.viewport-main {
-  position: relative;
   text-align: center;
 }
+
+/* .viewport-main {
+  position: relative;
+  text-align: center;
+} */
 #selfStyle {
-  width: 600px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 480px;
   height: 500px;
 }
 
