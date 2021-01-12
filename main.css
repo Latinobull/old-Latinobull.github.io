@@ -40,15 +40,14 @@ body {
 }
 
 .cardStyle {
-  /* margin-right: 80px;
-  margin-left: 80px; */
   background-color: aliceblue;
 }
 
-/* #slideshow {
-  margin-left: 350px;
-  margin-right: 350px;
-} */
+#slideshow {
+  width: 70%;
+  height: 400px;
+  /* align-items: center; */
+}
 
 #cardColor {
   background-color: rgb(135, 195, 248, 0.6);
