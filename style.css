@@ -12,16 +12,16 @@
   bottom: 0;
 }
 
-/* .viewport-header {
+.viewport-header {
   position: relative;
   height: 100vh;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
 #js-progressbar {
-  width: 700px;
+  max-width: 700px;
 }
 
 #introText {
