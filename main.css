@@ -27,10 +27,10 @@ body {
   background-size: cover;
 }
 
-.viewport-main {
+/* .viewport-main {
   position: relative;
   text-align: center;
-}
+} */
 #selfStyle {
   display: block;
   margin-right: auto;
@@ -40,18 +40,18 @@ body {
 }
 
 .cardStyle {
-  margin-right: 80px;
-  margin-left: 80px;
+  /* margin-right: 80px;
+  margin-left: 80px; */
   background-color: aliceblue;
 }
 
-#slideshow {
+/* #slideshow {
   margin-left: 350px;
   margin-right: 350px;
-}
+} */
 
 #cardColor {
   background-color: rgb(135, 195, 248, 0.6);
-  margin-left: 500px;
-  margin-right: 500px;
+  /* margin-left: 500px;
+  margin-right: 500px; */
 }
