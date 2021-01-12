@@ -50,6 +50,5 @@ body {
 
 #cardColor {
   background-color: rgb(135, 195, 248, 0.6);
-  /* margin-left: 500px;
-  margin-right: 500px; */
+  width: 60%;
 }

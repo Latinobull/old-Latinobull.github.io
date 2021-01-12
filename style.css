@@ -27,25 +27,3 @@
 #introText {
   color: white;
 }
-
-/* @media only screen and (max-width: 700px) {
-  h1 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-} */
-
-@media (min-aspect-ratio: 16/9) {
-  #BGvideo {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  #BGvideo {
-    width: auto;
-    height: 100%;
-  }
-}
