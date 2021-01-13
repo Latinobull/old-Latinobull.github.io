@@ -2,6 +2,8 @@ h1 {
   font-family: "Exo", sans-serif;
   color: aliceblue;
   text-align: center;
+  background-color: rgba(56, 113, 163, 0.6);
+  width: 50%;
 }
 p {
   font-family: "Exo", sans-serif;
