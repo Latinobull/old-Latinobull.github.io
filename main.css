@@ -21,16 +21,6 @@ h4 {
   text-align: center;
 }
 
-body {
-  background: url(Assets/network.mp4) no-repeat center center fixed;
-  z-index: -1;
-  background-size: cover;
-}
-
-/* .viewport-main {
-  position: relative;
-  text-align: center;
-} */
 #selfStyle {
   display: block;
   margin-right: auto;
@@ -45,7 +35,6 @@ body {
 
 #slideshow {
   width: 70%;
-  /* align-items: center; */
 }
 
 #cardColor {
